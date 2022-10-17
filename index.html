@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="functions.js"></script>
+    <title>Utilización de objetos javascript</title>
+  </head>
+  <body>
+    <div>
+      <h3>Ejercicio 1</h3>
+      <input type="date" id="fechaReyes" />
+      <button onClick="reyesMagos(fechaReyes.value)">Calcular</button>
+    </div>
+    <div>
+      <h3>Ejercicio 2</h3>
+      <button onClick="fechaHoy()">Fecha hoy</button>
+    </div>
+    <div>
+      <h3>Ejercicio 3</h3>
+      <input type="number" id="radio" placeholder="Radio" />
+      <button onClick="calcularAreaCirculo(radio.value)">Calcular</button>
+    </div>
+    <div>
+      <h3>Ejercicio 4</h3>
+      <input type="number" id="comienzo" placeholder="Comienzo" />
+      <input type="number" id="fin" placeholder="Fin" />
+      <button onClick="calcularAleatorio(comienzo.value, fin.value)">
+        Calcular
+      </button>
+    </div>
+    <div>
+      <h3>Ejercicio 5</h3>
+      <input type="text" id="cadena" placeholder="Cadena" />
+      <button onclick="mitadCar(cadena.value)">Mitad</button>
+      <button onclick="ultimoCaracter(cadena.value)">Último</button>
+      <button onclick="cadenaInversa(cadena.value)">Inverso</button>
+      <button onclick="cadenaGuiones(cadena.value)">Guiones</button>
+      <button onclick="contarVocales(cadena.value)">Vocales</button>
+    </div>
+  </body>
+</html>
